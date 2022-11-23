@@ -1,0 +1,17 @@
+@import "./base.scss";
+@import "./mixin.scss";
+
+#app {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+.layout {
+  display: block;
+  width: 100%;
+}
+
+.layout.wide {
+  max-width: var(--wide-app);
+  margin: 0 auto;
+}

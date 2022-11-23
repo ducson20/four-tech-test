@@ -1,0 +1,14 @@
+@mixin flexBoxCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin hoverItem {
+  opacity: 1;
+  transition: all 0.3s linear 0s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
